@@ -17,10 +17,10 @@ public class WizardController {
   @Autowired
   private WizardDao repository;
 
-  /*  @Autowired
+  /*
+   @Autowired
     private WizardDao repository = new WizardRepository();
-*/
-
+  */
 
     @GetMapping("/wizards")
     public String getAll(Model model) {
